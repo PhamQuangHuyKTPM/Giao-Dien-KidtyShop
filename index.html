@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Trang chủ</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="header sticky-sm-top ">
+            <div class="header-container">
+                <div class="header-logo header-column">
+                    <a href="#">Kidty Shop</a>
+                </div>
+                <div class="header-nav header-column">
+                    <ul class="nav">
+                        <li class="nav-item nav-li">
+                            <a class="nav__items" href="#">Trang chủ</a>
+                        </li>
+                        <li class="nav-item nav-li">
+                            <a class="nav__items" href="./category-products/index.html">Tất cả sản phẩm</a>
+                        </li>
+                        <li class="nav-li">
+                            <a class="nav__items" href="./category-products/index.html">Khuyến mãi</a>
+                        </li>
+                        <li class="nav-item nav-li">
+                            <a class="nav__items" href="./blog/index.html">Bog</a>
+                        </li>
+                        <li class="nav-item nav-li">
+                            <a class="nav__items" href="./lien-he/index.html">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-icons header-column">
+                    <div class="icons-row">
+                        <div class="header-icon__items"><i class="fa fa-search" aria-hidden="true"></i></div>
+                        <div class="header-icon__items"><a href="./gio-hang/index.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></div>
+                        <div class="header-icon__items"><a href="./dang-nhap/index.html">Đăng nhập</a></div>
+                        <div class="header-icon__items"><a href="./dang-nhap/singin.html">Đăng ký</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <div id="carouselBanner" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href=""><img src="./img/slideshow_1.webp" class="d-block w-100" alt="..."></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href=""><img src="./img/slideshow_2.webp" class="d-block w-100" alt="..."></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href=""><img src="./img/slideshow_3.webp" class="d-block w-100" alt="..."></a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselBanner"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselBanner"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="banner-category">
+            <div class="banner-category-container">
+
+                <div class="banner-category-row">
+                    <div class="banner-category__items">
+                        <img src="./img/products/home_category_5_banner.webp" alt="">
+                        <div class="banner-category__items-outline">
+                            <div class="banner-outline__items">
+                                <h3>Phụ kiện mùa hè cho bé</h3>
+                                <a href="./blog/index.html"><button type="button" class="btn btn-light text-dark">Xem ngay</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-category__items">
+                        <img src="./img/products/home_category_2_banner.webp" alt="">
+                        <div class="banner-category__items-outline">
+                            <div class="banner-outline__items">
+                                <h3>Chăm sóc bé</h3>
+                                <a href="./blog/index.html"><button type="button" class="btn btn-light text-dark">Xem ngay</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-category__items">
+                        <img src="./img/products/home_category_1_banner.webp" alt="">
+                        <div class="banner-category__items-outline">
+                            <div class="banner-outline__items">
+                                <h3>Thời trang xuống phố</h3>
+                                <a href="./blog/index.html"><button type="button" class="btn btn-light text-dark">Xem ngay</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="session-new-product session-product">
+            <div class="title-product">
+                <h2><a href="">Sản phẩm mới</a></h2>
+            </div>
+            <div class="session-new-produtct__list">
+                <div class="new-product__column">
+                    <a href="/chi-tiet-san-pham/index.html">
+                        <img src="./img/products/pro-10_13159ff0162549e3aee0535a2c5bde93_master (1).webp" alt="">
+                        <div class="new-product__detail">
+                            <p href="#">Áo vest bé trai FM-V5</p>
+                            <p class="product-price">567.000đ</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="new-product__column">
+                    <a href="/chi-tiet-san-pham/index.html">
+                        <img src="./img/new-product/pro-4_master (1).webp" alt="">
+                        <div class="new-product__detail">
+                            <p href="#">Body dài cho bé</p>
+                            <p class="product-price">545,000₫</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="new-product__column">
+                    <a href="/chi-tiet-san-pham/index.html">
+                        <img src="./img/new-product/pro-16_master.webp" alt="">
+                        <div class="new-product__detail">
+                            <p href="#">Đồ vest cho Bé Trai</p>
+                            <p class="product-price">678,000₫ </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="new-product__column">
+                    <a href="/chi-tiet-san-pham/index.html">
+                        <img src="./img/new-product/pro-6_master.webp" alt="">
+                        <div class="new-product__detail">
+                            <p href="#">Set áo rời quần DM-A2</p>
+                            <p class="product-price">567,800₫</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="new-product__column">
+                    <a href="/chi-tiet-san-pham/index.html">
+                        <img src="./img/new-product/pro-8_b34aad9306a34b429be92b75048c1b12_master.webp" alt="">
+                        <div class="new-product__detail">
+                            <p href="#">Áo vest bé trai FM-V5</p>
+                            <p class="product-price">567.000đ</p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="wrapper-home-banner">
+            <div class="wrapper-home-banner__block">
+                <img src="./img/products/block_home_category1.webp" alt="">
+                <div class="wrapper-home-banner_outline">
+                    <div class="capption-banner">
+                        <p>Khuyến mãi đến 50%</p>
+                        <h3>Thời trang cho bé</h3>
+                        <a href="./blog/index.html"><button type="button" class="btn btn-light text-dark">Xem ngay</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper-home-banner__block">
+                <img src="./img/products/block_home_category2.webp" alt="">
+                <div class="wrapper-home-banner_outline">
+                    <div class="capption-banner">
+                        <p>Khuyến mãi đến 50%</p>
+                        <h3>Thời trang cho bé</h3>
+                        <a href="./blog/index.html"><button type="button" class="btn btn-light text-dark">Xem ngay</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper-home-banner__block">
+                <img src="./img/products/block_home_category3.webp" alt="">
+                <div class="wrapper-home-banner_outline">
+                    <div class="capption-banner">
+                        <p>Khuyến mãi đến 50%</p>
+                        <h3>Thời trang cho bé</h3>
+                        <a href="./blog/index.html"><button type="button" class="btn btn-light text-dark">Xem ngay</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="session-new-product session-product">
+            <div class="title-product">
+                <h2><a href="">Sản phẩm bán chạy</a></h2>
+            </div>
+            <div class="session-best-produtct__list">
+                <div class="new-product__column">
+                    <a href="#">
+                        <img src="./img/products/pro-10_13159ff0162549e3aee0535a2c5bde93_master (1).webp" alt="">
+                        <div class="new-product__detail">
+                            <p href="#">Áo vest bé trai FM-V5</p>
+                            <p class="product-price">567.000đ</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="new-product__column">
+                    <a href="/chi-tiet-san-pham/index.html">
+                        <img src="./img/new-product/f59d2509f86925377c78.jpg" alt="">
+                        <div class="new-product__detail">
+                            <p href="#">Body Bé Trai Hình Siêu Nhân</p>
+                            <p class="product-price">545,000₫</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="new-product__column">
+                    <a href="/chi-tiet-san-pham/index.html">
+                        <img src="./img/new-product/pro-16_master.webp" alt="">
+                        <div class="new-product__detail">
+                            <p href="#">Đồ vest cho Bé Trai</p>
+                            <p class="product-price">678,000₫ </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="new-product__column">
+                    <a href="/chi-tiet-san-pham/index.html">
+                        <img src="./img/new-product/pro-6_master.webp" alt="">
+                        <div class="new-product__detail">
+                            <p href="#">Set áo rời quần DM-A2</p>
+                            <p class="product-price">567,800₫</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="new-product__column">
+                    <a href="/chi-tiet-san-pham/index.html">
+                        <img src="./img/new-product/fb5fbfcc62acbff2e6bd.jpg" alt="">
+                        <div class="new-product__detail">
+                            <p href="#">Body hoạt hình cho Bé</p>
+                            <p class="product-price">567.000đ</p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="session-best-produtct__list">
+                <div class="new-product__column">
+                    <a href="/chi-tiet-san-pham/index.html">
+                        <img src="./img/new-product/pro-6_master.webp" alt="">
+                        <div class="new-product__detail">
+                            <p href="#">Set áo rời quần DM-A2</p>
+                            <p class="product-price">567,800₫</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="new-product__column">
+                    <a href="/chi-tiet-san-pham/index.html">
+                        <img src="./img/new-product/pro-4_master (1).webp" alt="">
+                        <div class="new-product__detail">
+                            <p href="#">Body dài cho bé</p>
+                            <p class="product-price">545,000₫</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="new-product__column">
+                    <a href="/chi-tiet-san-pham/index.html">
+                        <img src="./img/new-product/fdfeba6d670dba53e31c.jpg" alt="">
+                        <div class="new-product__detail">
+                            <p href="#">Đầm Công Chúa Cho Bé Gái</p>
+                            <p class="product-price">678,000₫ </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="new-product__column">
+                    <a href="/chi-tiet-san-pham/index.html">
+                        <img src="./img/new-product/pro-8_b34aad9306a34b429be92b75048c1b12_master.webp" alt="">
+                        <div class="new-product__detail">
+                            <p href="#">Áo vest bé trai FM-V5</p>
+                            <p class="product-price">567.000đ</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="new-product__column">
+                    <a href="/chi-tiet-san-pham/index.html">
+                        <img src="./img/products/pro-10_13159ff0162549e3aee0535a2c5bde93_master (1).webp" alt="">
+                        <div class="new-product__detail">
+                            <p href="#">Áo vest bé trai FM-V5</p>
+                            <p class="product-price">567.000đ</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="infomation-container">
+            <div class="infomation-row">
+                <div class="infomation-col infomation-col__left">
+                    <img src="./img/products/home_about_image.webp" alt="">
+                    <div class="information-content">
+                        <div class="box-content">
+                            <h2>Về chúng tôi</h2>
+                            <a href="./lien-he/index.html"><button type="button" class="btn btn-light text-dark">Xem ngay</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="infomation-col infomation-col-right">
+                    <div class="infomation-content">
+                        <p>Trang giới thiệu giúp khách hàng hiểu rõ hơn về cửa hàng của bạn.
+                            Hãy cung cấp thông tin cụ
+                            thể về việc kinh doanh, về cửa hàng, thông tin liên hệ. Điều này sẽ giúp khách hàng cảm thấy
+                            tin tưởng khi mua hàng trên website của bạn. <br>
+
+                            Một vài gợi ý cho nội dung trang Giới thiệu:<br><br>
+
+                            Bạn là ai<br>
+                            Giá trị kinh doanh của bạn là gì<br>
+                            Địa chỉ cửa hàng<br>
+                            Bạn đã kinh doanh trong ngành hàng này bao lâu rồi<br>
+                            Bạn kinh doanh ngành hàng online được bao lâu<br>
+                            Đội ngũ của bạn gồm những ai<br>
+                            Thông tin liên hệ<br>
+                            Liên kết đến các trang mạng xã hội (Twitter, Facebook)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-top">
+                <div class="footer-top-row">
+                    <div class="footer-top__icon footer-top-items">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <p>Đăng kí nhận tin</p>
+                    </div>
+                    <div class="footer-top__input footer-top-items">
+                        <input type="text">
+                        <input type="submit" value="ĐĂNG KÝ">
+                    </div>
+                    <div class="footer-top__contact footer-top-items">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <p>Hỗ trợ / Mua hàng: <p style="color : red">1900 636 099</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-main">
+                <div class="footer-main-row">
+                    <div class="footer-main__col">
+                        <h4>Giới thiệu</h4>
+                        <p>Kidty Shop trang mua sắm trực tuyến của thương hiệu thời trang Lama, thời trang nam, nữ, phụ
+                            kiện, giúp bạn tiếp cận xu hướng thời trang mới nhất.</p>
+                    </div>
+                    <div class="footer-main__col">
+                        <h4>Thông tin liên hệ</h4>
+                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> Tầng 4, tòa nhà Flemington, số 182, đường
+                            Lê Đại Hành, phường 15, quận 11, Tp. Hồ Chí Minh.</p>
+                        <p><i class="fa fa-phone" aria-hidden="true"></i>1900.636.099</p>
+                        <p><i class="fa fa-mobile" aria-hidden="true"></i>1900.636.099</p>
+                        <p><i class="fa fa-envelope" aria-hidden="true"></i>hi@kidty.com</p>
+                    </div>
+
+                    <div class="footer-main__col">
+                        <h4>Liên kết</h4>
+                        <p>Sản phẩm khuyến mãi</p>
+                        <p>Sản phẩm nổi bật</p>
+                        <p>Tất cả sản phẩm</p>
+                    </div>
+                    <div class="footer-main__col">
+                        <h4>Hỗ trợ</h4>
+                        <p>Tìm kiếm</p>
+                        <p>Giới thiệu</p>
+                        <p>Chính sách đổi trả</p>
+                        <p>Chính sách bảo mật</p>
+                        <p>Điều khoản dịch vụ</p>
+                        <p>Liên hệ </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

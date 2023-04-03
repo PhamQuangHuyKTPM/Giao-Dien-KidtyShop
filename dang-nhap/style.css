@@ -1,0 +1,89 @@
+html{
+    font-family: 'Quicksand', sans-serif
+}
+
+body{
+    background-image: url("https://colorlib.com/etc/lf/Login_v4/images/bg-01.jpg"); 
+    background-image: url("./bg-01.webp"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-login{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.back{
+    position: absolute;
+    top : 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.back a{
+    margin: 0;
+    color : rgba(0,0,0,0.6);
+    text-decoration: none;
+    font-size: 14.5px;
+}
+
+.back a:hover{
+    color : rgb(204, 51, 255);
+}
+
+.back i{
+    margin-right: 5px;
+    font-size: 16px;
+    
+}
+
+.title-login h1{
+    font-size: 35px;
+    color: #CC33FF;
+}
+
+#alert-show{
+    display: none;
+}
+
+.wrap-login{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 500px;
+}
+
+#btn-login{
+    width: 100%;
+    border-radius: 20px;
+    background-color: #6633FF;
+}
+
+#btn-login:hover{
+    
+    animation: hoverbtn 0.5s ease-in-out;
+    background-color: #CC00FF;
+
+}
+
+@keyframes hoverbtn{
+    from{
+        background-color: #6633FF;
+    }
+    to{
+        background-color: #CC00FF;
+    }
+}
+
+#btn-signup{
+    width: 100%;
+    color : #000;
+    border : none;
+    background-color: #fff;
+}
+
+#text-or{
+    opacity: 0.5;
+}

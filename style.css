@@ -1,0 +1,390 @@
+body {
+    font-family: 'Quicksand', sans-serif!important;
+}
+/* Header */
+.header {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-bottom: 22px;
+    /* background-color: #fff; */
+    background: RGBA( 255, 255, 255, 0.98 );
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;
+    padding: 0px 75px;
+    margin: 0 auto;
+    max-width: 1583px;
+    
+}
+
+.header-column {}
+
+.header-logo a {
+    font-size: 24px;
+    color: #f08db2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header-logo a:hover{
+    color: #f08db2;
+}
+
+.nav__items {
+    margin: 0px 12px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(49, 47, 47);
+    text-decoration: none;
+}
+
+.nav__items:hover,
+.header-icon__items>a:hover {
+    color: #ff6564;
+}
+
+.nav-li {
+    align-self: center;
+}
+
+.icons-row {
+    display: flex;
+
+}
+
+.header-icon__items {
+    margin: 0px 12px;
+}
+
+.header-icon__items>i {
+    font-size: 18px;
+}
+
+.header-icon__items>a {
+    text-decoration: none;
+    color: rgb(49, 47, 47)
+}
+/* END HEADER */
+
+/*  BANNNER */
+.banner{
+    margin: 0 auto;
+    max-width: 1583px;
+}
+.banner img {
+    width: 100%;
+    max-width: 1583px;
+    max-height: 536px;
+}
+
+.banner-category {
+    margin: 20px 20px;
+}
+
+.banner-category__items {
+   
+    margin: 0px 5px;
+    position: relative;
+}
+
+.banner-category__items>img {
+    width: 483px;
+    height: 257px;
+}
+
+.banner-category__items>.banner-category__items-outline {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.banner-category__items-outline:hover{
+    background: rgba(0, 0, 0, 0.6);
+}
+
+
+.banner-category__items-outline {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.banner-category__items-outline h3 {
+    color: white;
+    font-size: 20px;
+}
+
+.banner-category-row {
+    display: flex;
+    justify-content: center;
+}
+
+/* END BANNER */
+
+/* SESSION PRODUCT NEW */
+.session-product{
+
+}
+
+.session-product a, .session-product a:hover{
+    color: #252a2b;
+}
+
+.session-product a{
+    text-decoration: none;
+}
+
+.session-new-produtct__list,.session-best-produtct__list{
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.title-product{
+    text-align: center;
+    padding : 50px 0px;
+}
+
+.title-product a{
+    text-decoration: none;
+    color: #f08db2;
+    font-size: 37px;
+}
+
+.title-product a:hover{
+    color: #f08db2;
+}
+
+.new-product__column{
+    padding : 0px 15px
+}
+
+.new-product__column img{
+    width: 269px;
+    height: 289px;
+}
+
+.product-price{
+    color: #ff6564;
+}
+
+.new-product__detail{
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.new-product__detail p{
+    margin: 0;
+    font-size: 14px;
+}
+
+.session-best-produtct__list{
+    margin-bottom: 30px;
+}
+
+.wrapper-home-banner{
+    display: flex;
+    flex-basis: 33%;
+    justify-content: space-evenly;
+    margin: 50px auto 0 auto;
+    max-width: 1583px;
+}
+
+.wrapper-home-banner__block{
+    display: flex;
+    position: relative;
+}
+
+.wrapper-home-banner__block img{
+    width: 523px;
+    height: 349px;
+}
+
+.wrapper-home-banner_outline{
+    position: absolute;
+    width: 100%;
+    bottom: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.capption-banner{
+    width: 445px;
+    height: 121px;
+    padding : 0px 50px;  
+    bottom : 0;
+}
+
+.wrapper-home-banner_outline:hover{
+    background: rgba(0, 0, 0, 0.4);
+    color : white;
+    padding : 20px 0px;
+}
+
+.infomation-container{
+    background-color: #f5f5f5;
+    margin-top: 40px;
+    margin: 0 auto;
+    max-width: 1583px;
+}
+
+.infomation-row{
+    display: flex;
+
+}
+
+.infomation-col__left{
+    width: 650px;
+    height: 430px;
+    position: relative;
+}
+
+
+.infomation-col__left img{
+    width: 650px;
+    height: 430px;
+    
+}
+
+.information-content{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-content{
+    width: 520px;
+    height: 172px;
+}
+
+.box-content h2{
+    color : white;
+    font-size: 54px;
+    margin-bottom: 65px;
+}
+
+.infomation-col-right{
+    margin: 0px 65px;
+    display: flex;
+    align-items: center;
+    
+}
+
+/* Footer */
+
+.footer-top{
+    padding : 15px 0;
+    background-color: #f3f3f3;
+    margin: 0 auto;
+    max-width: 1583px;
+}
+
+.footer-top-row{
+    display: flex;
+    justify-content: space-between;
+    padding : 0px 75px;
+    
+}
+
+.footer-top__icon {
+    flex :1;
+}
+
+.footer-top__input{
+    flex : 3
+}
+
+.footer-top__contact{
+    flex : 2;
+    justify-content: center;
+}
+
+.footer-top-items{
+    display: flex;
+    align-items: center;
+}
+
+.footer-top-items p{
+    margin: 0;
+    margin-left: 12px;
+}
+.footer-top-items i{
+    font-size: 18px;
+}
+
+
+.footer-top__input{
+    border: none;
+}
+
+.footer-top__input input[type="text"]{
+    height: 40px;
+    width  : 100%;
+    padding : 0 15px;
+    border: 1px solid gray;
+}
+
+.footer-top__input input[type="submit"]{
+    height: 40px;
+    border: none;
+    font-size: 12px;
+    padding : 10px 25px;
+    color :#f3f3f3;
+    background-color: #f08db2;
+}
+
+.footer-main-row{
+    display: flex;
+    justify-content: space-between  ;
+    padding : 0px 75px; 
+    margin: 0 auto;
+    max-width: 1583px;
+}
+
+.footer-main{
+    padding : 40px 0 50px 0;
+}
+
+.footer-main__col h4{
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footer-main__col{
+    margin: 0px 12px;
+}
+
+.footer-main__col p{
+    margin-bottom: 5px;
+    font-size: 14px;
+    color : #252A2B;
+}
+
+.footer-main__col i{
+    margin-right: 10px;
+}
+
+.footer-main__col:nth-child(1){
+    flex : 3;
+}
+.footer-main__col:nth-child(2){
+    flex : 2;
+}
+.footer-main__col:nth-child(3){
+    flex : 1;
+}
+.footer-main__col:nth-child(4){
+    flex : 1;
+}
